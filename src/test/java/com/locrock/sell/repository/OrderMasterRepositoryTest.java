@@ -37,6 +37,8 @@ public class OrderMasterRepositoryTest {
 
         Page<OrderMaster> page = repository.findByBuyerOpenid("locrock", request);
 
-        System.out.println(page.getContent());
+        for (OrderMaster orderMaster : page.getContent ()) {
+            System.err.println ("orderMaster = " + orderMaster);
+        }
     }
 }
