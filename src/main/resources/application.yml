@@ -10,3 +10,12 @@ spring:
     default-property-inclusion: non_null
 server:
   context-path: /sell
+
+wechat:
+#  myAppId: wx8397f8696b538317
+  myAppSecret: abaa543c53019db5a9795c790ed65d8f
+  mchId: 1473426802
+  mchKey: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb
+  keyPath: https://api.mch.weixin.qq.com/pay/unifiedorder
+  notifyUrl: http://a31ef7db.ngrok.io/WeChatPay/WeChatPayNotify
+  myAppId: wx54beb2091902d73a

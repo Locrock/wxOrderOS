@@ -25,7 +25,8 @@ public enum ResultEnum
     CART_EMPTY_ERROR(19,"购物车为空"),
     CREATE_ORDER_ERROR(20,"创建购物车失败"),
     OPENID_EMPTY(21,"openid为空"),
-    ORDER_ID_EMPTY(22,"订单id为空");
+    ORDER_ID_EMPTY(22,"订单id为空"),
+    WX_MP_ERROR(23,"微信账号方面错误");
 
     private Integer code;
     private String message;
